@@ -1,24 +1,209 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="generator" content="GitLab Pages">
-    <title>Plain HTML site using GitLab Pages</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="navbar">
-      <a href="https://pages.gitlab.io/plain-html/">Plain HTML Example</a>
-      <a href="https://gitlab.com/pages/plain-html/">Repository</a>
-      <a href="https://gitlab.com/pages/">Other Examples</a>
-    </div>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="loader.css">
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        <link rel="stylesheet" type="text/css" href="parallax.css">
+        <link rel="stylesheet" type="text/css" href="popup.css">
+        <link rel="stylesheet" type="text/css" href="scroll-indicator.css">
+        <link rel="stylesheet" type="text/css" href="skill-bar.css">
+        <link rel="stylesheet" type="text/css" href="card.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <h1>Bonjour</h1>
+        <link rel="shortcut icon" type="image/x-icon" href="hap.ico">
 
-    <p>
-      This is a simple plain-HTML website on GitLab Pages, without any fancy static site generator.
-	  Test Test Test
-    </p>
-  </body>
+        <title>HTML ULTIMATE</title>
+    </head>
+    <body onload="Load()" style="margin:0;">
+        <!-- Apparition Loader -->
+        <div id="loader"></div>
+        <!-- Apparition de la page -->
+        <!-- Ajouter le main dans le div suivant -->
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+            <div id="Intro">
+                
+                <h1>Welcome to my website</h1>
+                
+            </div>
+            <!--Barre de naviation-->
+                    <nav>
+                        <ul>
+                            <li><a href="#Intro">Home</a></li>
+                            <li><a href="#Timeline">My Timeline</a></li>
+                            <li><a href="#MySkills">My Skills</a></li>
+                            <li><a href="#Card">My card</a></li>
+                        </ul>
+                    </nav>
+            
+            <!-- Contenu de la page -->
+            
+           
+
+            <!-- Début parallax -->
+                <!-- Musique d'ambiance -->
+                <audio src="Deadly Premonition OST- Life is Beautiful.mp3" autoplay></audio>
+
+
+                <div class="bgimg-1">
+                    <!--  
+                    <div class="caption">
+                         <span class="border">SCROLL DOWN</span>
+                    </div>-->
+                </div>
+                
+                
+                <div  style="color: #777; background-color:white; text-align:center; text-align: justify;">
+                    <h3 style="text-align:center; text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px;">My Timeline</h3>
+                    <p></p>
+                    <div id="Timeline">
+                        <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1NfLnVTu3rTlrl32NrhJs9RRDYgYmcsOB2eb7U1FyTLg&font=Bitter-Raleway&lang=en&initial_zoom=1&height=524' width='100%' height='524' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+                    </div>
+                </div>
+                  
+                <div class="bgimg-2">
+                    <div class="caption">
+                        <span class="border" style="background-color:black; font-size:25px; color: #f7f7f7;">Sono chi no sadameeeeee</span>
+                    </div>
+                </div>
+
+            <!-- Début skills -->
+                  
+                <div id="MySkills" style="position:relative;">
+                    <div style="color:black; background-color:white; text-align:center; padding:50px 80px; text-align: justify;">
+                        <h1 style="text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px;">My Skills</h1>
+
+                            <p>HTML</p>
+                            <div class="containerSkill">
+                                <div class="skills html">90%</div>
+                            </div>
+
+                            <p>CSS</p>
+                            <div class="containerSkill">
+                                <div class="skills css">80%</div>
+                            </div>
+
+                            <p>Python</p>
+                            <div class="containerSkill">
+                                <div class="skills python">75%</div>
+                            </div>
+
+                            <p>C language</p>
+                            <div class="containerSkill">
+                                <div class="skills c">70%</div>
+                            </div>
+
+                            <p>JavaScript</p>
+                            <div class="containerSkill">
+                                <div class="skills js">65%</div>
+                            </div>
+
+                            <p>SQL</p>
+                            <div class="containerSkill">
+                                <div class="skills sql">40%</div>
+                            </div>
+
+                            <p>MatLab</p>
+                            <div class="containerSkill">
+                                <div class="skills matlab">40%</div>
+                            </div>
+                    </div>
+                </div>
+            <!-- Fin des skills -->
+            
+            
+                <div class="bgimg-3">
+                    <div class="caption">
+                        <span class="border" style="background-color:transparent; font-size:25px; color: #f7f7f7;">SOME GOOD TEXT</span>
+                    </div>
+                </div>
+            <!-- Début card -->
+                <div id="Card" style="position:relative;">
+                    <div style="color:black; background-color:#ddd; text-align:center; padding:50px 80px; text-align: justify;">
+                            
+                        <h2 style="text-align:center; text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px;">My Card</h2>
+                        
+                        <div class="card">
+                            <img src="PeterQuill.jpg" alt="Me" style="width:100%">
+                            <h1 style="text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px;">Tanguy FROUIN</h1>
+                            <p class="title">Student in computing science</p>
+                            <p>IUT Lyon1</p>
+                            <div class="SocialMedia" style="margin: 24px 0;">
+                                <a href="https://www.linkedin.com/in/tanguy-frouin-426582196/" target="_blank"> <strong>Linked</strong><i class="fa fa-linkedin-square" style="font-size:24px; color:rgb(0, 92, 230)"></i></a>   
+                            </div>
+                                   
+                            <p>
+                                <button onclick="Pop()">Contact
+                                    <span class="popuptext" id="myPopup">tanguy.frouin@etu.univ-lyon1.fr</span>
+                                </button>
+                            </p>  
+                        </div>
+                    </div>
+                </div>
+            <!-- Fin card -->
+
+
+                <div class="bgimg-1">
+                    <div class="caption">
+                        <span class="border">SHOW ME YOUR MOVES!</span>
+                    </div>
+                </div>
+
+
+
+
+
+
+            <!-- Footer (scroll indicator) -->
+            <div class="footer">
+                <div class="progress-container">
+                    <div class="progress-bar" id="myBar"></div>
+                </div>  
+            </div>
+
+            <!-- Tag fermant le contenu de la page -->
+        </div>
+        
+        
+
+
+        <!-- JS rules the world -->
+        <script>
+            // Début Script loader
+                var myVar;
+
+                function Load() {
+                myVar = setTimeout(showPage, 3000);
+                }
+
+                function showPage() {
+                document.getElementById("loader").style.display = "none";
+                document.getElementById("myDiv").style.display = "block";
+                }
+            // Fin script loader
+
+            // Début script scroll-indicator
+            // When the user scrolls the page, execute ScrollBar 
+                window.onscroll = function() {ScrollBar()};
+
+                function ScrollBar() {
+                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                var scrolled = (winScroll / height) * 100;
+                document.getElementById("myBar").style.width = scrolled + "%";
+                }
+            // Fin script scroll-indicator
+
+            //Début "Contact" popup
+                function Pop() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+                }
+            //Fin "Contact" popup
+                
+        </script>
+        
+    </body>
 </html>
-
