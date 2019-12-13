@@ -1,0 +1,79 @@
+div#Accès{
+    background-color:white;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div#AccèsTxt{
+    width: 500px;
+    height: 400px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div#AccèsImg{
+    align-items: right;
+    margin-left: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+div#ProtectionDesAppareils{
+    background-color:white;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div#ProtectionDesAppareilsTxt{
+    width: 500px;
+    height: 400px;
+    text-align: justify;
+    margin-left: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div#ProtectionDesAppareilsImg{
+    align-items: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+div#Connexion{
+    background-color:white;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div#ConnexionTxt{
+    width: 500px;
+    height: 400px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div#ConnexionImg{
+    align-items: right;
+    margin-left: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    #Connexion {
+      flex-direction: column;
+    }
+  }

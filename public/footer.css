@@ -1,0 +1,41 @@
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer div#AppMobileTitre{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+footer div#AppMobileTitre h1{
+    font-size: 30px;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+table tr th {
+    color: #73757a;
+    text-align: left;
+    font-size:20px;
+}
+
+
+table tr td a{
+    color: white;
+    font-size:20px;
+
+}
+
+table tr td a:hover{
+    color: #4687ff;
+    font-size:20px;
+
+}
+
+table{
+    width: 100%;
+    margin-left:20px;
+    margin-right:20px;
+    height: 200px;
+}

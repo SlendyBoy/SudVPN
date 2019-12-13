@@ -6,10 +6,11 @@
         
         <link rel="stylesheet" type="text/css" href="loader.css">
         <link rel="stylesheet" type="text/css" href="nav.css">
+        <link rel="stylesheet" type="text/css" href="PageAccueil.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
         <link rel="stylesheet" type="text/css" href="parallax.css">
         <link rel="stylesheet" type="text/css" href="popup.css">
         <link rel="stylesheet" type="text/css" href="scroll-indicator.css">
-        <link rel="stylesheet" type="text/css" href="skill-bar.css">
         <link rel="stylesheet" type="text/css" href="card.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -17,28 +18,30 @@
 
         <title>HTML ULTIMATE</title>
     </head>
-    <body onload="Load()" style="margin:0;">
-        <!-- Apparition Loader -->
-        <div id="loader"></div>
-        <!-- Apparition de la page -->
+    <body style="margin:0;">
+
         <!-- Ajouter le main dans le div suivant -->
-        <div style="display:none;" id="myDiv" class="animate-bottom">
+        <div class="animate-bottom">
             <div id="Intro">
                 
-                <h1>NOM ENTREPRISE</h1>
+                <h1>SudVPN</h1>
+                <p class="Slogan">Votre vie privé, notre priorité.</p>
                 
             </div>
             <!--Barre de naviation-->
                     <nav>
                         <ul>
                             <li><a href="#Intro">Home</a></li>
-                            <li><a href="#Timeline">My Timeline</a></li>
-                            <li><a href="#MySkills">My Skills</a></li>
-                            <li><a href="#Card">My card</a></li>
+                            <li><a href="#">Fonctionnalités</a></li>
+                            <li><a href="#">Tarifs</a></li>
+                            <li><a href="#">Serveurs</a></li>
+                            <li><a href="#">Applications</a></li>
+                            <li><a href="#">Aide</a></li>
+                            <li><a href="#">A propos</a></li>
 
                             <div class="search-container">
                               <form action="">
-                                <input type="text" placeholder="Rechercher.." name="search">
+                                <input type="text" placeholder="Rechercher..." name="search">
                                 
                               </form>
                             </div>
@@ -52,9 +55,6 @@
            
 
             <!-- Début parallax -->
-                <!-- Musique d'ambiance -->
-                <audio src="Deadly Premonition OST- Life is Beautiful.mp3" autoplay></audio>
-
 
                 <div class="bgimg-1">
                     <!--  
@@ -64,155 +64,134 @@
                 </div>
                 
                 
-                <div  style="color: #777; background-color:white; text-align:center; text-align: justify;">
-                    <h3 style="text-align:center; text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px;">My Timeline</h3>
-                    <p></p>
-                    <div id="Timeline">
-                        <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1NfLnVTu3rTlrl32NrhJs9RRDYgYmcsOB2eb7U1FyTLg&font=Bitter-Raleway&lang=en&initial_zoom=1&height=524' width='100%' height='524' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+                <div  id="Accès">
+                    <div  id="AccèsTxt">
+                        <h1>Obtenez un accès privé et sécurisé à internet</h1>
+                        <p>Un VPN est comme un tunnel chiffré et sécurisé par lequel transite votre trafic en ligne. 
+                        Personne ne peut voir à travers le tunnel et s'approprier vos données.</p>
+                        <p>Avec SudVPN, restez serein à chaque fois que vous vous connectez à un réseau Wi-Fi public, consultez vos comptes personnels et professionnels lors de vos déplacements, ou encore lorsque vous souhaitez garder confidentiel votre historique de navigation.</p>
+                    </div>
+
+                    <div  id="AccèsImg">
+                        <img src="Test.PNG" alt="NuageTest" height="400px" width="400px">
                     </div>
                 </div>
                   
                 <div class="bgimg-2">
-                    <div class="caption">
-                        <span class="border" style="background-color:black; font-size:25px; color: #f7f7f7;">Sono chi no sadameeeeee</span>
-                    </div>
+                    
                 </div>
 
-            <!-- Début skills -->
                   
-                <div id="MySkills" style="position:relative;">
-                    <div style="color:black; background-color:white; text-align:center; padding:50px 80px; text-align: justify;">
-                        <h1 style="text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px;">My Skills</h1>
+                <div id="ProtectionDesAppareils" style="position:relative;">
 
-                            <p>HTML</p>
-                            <div class="containerSkill">
-                                <div class="skills html">90%</div>
-                            </div>
-
-                            <p>CSS</p>
-                            <div class="containerSkill">
-                                <div class="skills css">80%</div>
-                            </div>
-
-                            <p>Python</p>
-                            <div class="containerSkill">
-                                <div class="skills python">75%</div>
-                            </div>
-
-                            <p>C language</p>
-                            <div class="containerSkill">
-                                <div class="skills c">70%</div>
-                            </div>
-
-                            <p>JavaScript</p>
-                            <div class="containerSkill">
-                                <div class="skills js">65%</div>
-                            </div>
-
-                            <p>SQL</p>
-                            <div class="containerSkill">
-                                <div class="skills sql">40%</div>
-                            </div>
-
-                            <p>MatLab</p>
-                            <div class="containerSkill">
-                                <div class="skills matlab">40%</div>
-                            </div>
+                    <div id="ProtectionDesAppareilsImg">
+                        <img src="Test.PNG" alt="NuageTest" height="400px" width="400px">
                     </div>
+
+                    <div  id="ProtectionDesAppareilsTxt">
+                        <h1 >Protégez tous vos appareils</h1>
+                        
+                        <p>Vous utilisez Windows au travail, macOS à la maison et Linux pour des projets spécifiques ? Aucun problème. </p>
+                        <p> existe une application SudVPN pour chacun d’eux, ainsi que pour iOS, Android et Android TV. </p>
+                        <p> Mais aussi des extensions de proxy cryptées pour Chrome et Firefox. Et pour couronner le tout, avec un compte SudVPN vous pouvez sécuriser jusqu’à 6 appareils simultanément !</p>
+                        <p>Disponible sur :</p>
+                    </div>    
+                
                 </div>
             <!-- Fin des skills -->
             
             
                 <div class="bgimg-3">
-                    <div class="caption">
-                        <span class="border" style="background-color:transparent; font-size:25px; color: #f7f7f7;">SOME GOOD TEXT</span>
-                    </div>
+                   
                 </div>
-            <!-- Début card -->
-                <div id="Card" style="position:relative;">
-                    <div style="color:black; background-color:#ddd; text-align:center; padding:50px 80px; text-align: justify;">
-                            
-                        <h2 style="text-align:center; text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px;">My Card</h2>
-                        
-                        <div class="card">
-                            <img src="PeterQuill.jpg" alt="Me" style="width:100%">
-                            <h1 style="text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px;">Tanguy FROUIN</h1>
-                            <p class="title">Student in computing science</p>
-                            <p>IUT Lyon1</p>
-                            <div class="SocialMedia" style="margin: 24px 0;">
-                                <a href="https://www.linkedin.com/in/tanguy-frouin-426582196/" target="_blank"> <strong>Linked</strong><i class="fa fa-linkedin-square" style="font-size:24px; color:rgb(0, 92, 230)"></i></a>   
-                            </div>
-                                   
-                            <p>
-                                <button onclick="Pop()">Contact
-                                    <span class="popuptext" id="myPopup">tanguy.frouin@etu.univ-lyon1.fr</span>
-                                </button>
-                            </p>  
+
+                <div  id="Connexion">
+                        <div  id="ConnexionTxt">
+                            <h1>Connexion stable et rapide, où que vous soyez et quand vous le voulez</h1>
+                            <p>Rien de plus insupportable qu’un long chargement, il est donc impensable de télécharger un fichier ou regarder une vidéo en streaming avec une connexion lente. </p>
+                            <p>Mais pas avec SudVPN! Choisissez parmi plus de 5400 serveurs répartis dans 59 pays et profitez de l'expérience VPN la plus rapide qui soit. </p>
+                            <p>Plus il y a de serveurs, moins ils sont chargés individuellement, et la grande variété d'emplacements signifie que vous avez plus de chance d'en trouver un à proximité.</p>
+                            <p>Avec SudVPN, restez serein à chaque fois que vous vous connectez à un réseau Wi-Fi public, consultez vos comptes personnels et professionnels lors de vos déplacements, ou encore lorsque vous souhaitez garder confidentiel votre historique de navigation.</p>
+                        </div>
+    
+                        <div  id="ConnexionImg">
+                            <img src="Test.PNG" alt="NuageTest" height="400px" width="400px">
                         </div>
                     </div>
-                </div>
-            <!-- Fin card -->
 
 
                 <div class="bgimg-1">
-                    <div class="caption">
-                        <span class="border">SHOW ME YOUR MOVES!</span>
-                    </div>
+                    
                 </div>
 
+                <footer>
+                    <div id="AppMobileTitre">
+                        <h1>Téléchargez les appsmobiles SudVPN</h1>
+                        <p>Disponible sur Google Play et l'App Store</p>
+                    </div>
+
+                    <table cellspacing="15">
+
+                        <tr>
+                            <th>SudVPN et ses services</th>
+                            <th>Informations</th>
+                            <th>Partenaires un jour, Partenaires toujours</th>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Téléchargez SudVPN</a></td>
+                            <td><a href="#">Qu'est-ce qu'un VPN?</a></td>
+                            <td><a href="#">Devenir Partenaire</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Les prix</a></td>
+                            <td><a href="#">FAQ</a></td>
+                            <td><a href="#">Youtubers / Influenceurs</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Fonctionnalités</a></td>
+                            <td><a href="#">Tutos</a></td>
+                           
+                        </tr>
+                            
+                        <tr>
+                            <td><a href="#">Les serveurs</a></td>
+                            <td><a href="#">Qui sommes nous?</a></td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td><a href="#">Réduction pour Etudiants</a></td>                                
+                            <td><a href="#">Politique de Confidentialité</a></td>
+                            
+                        </tr>
+                            
+                        <tr>
+                            <td><a href="#">Avis clientèle</a></td>
+                            <td><a href="#">Conditions d’utilisation</a></td>
+                           
+                        </tr>
+
+                    </table>
+                    
+                    
+                    
+                    
+
+
+                </footer>
 
 
 
 
 
-            <!-- Footer (scroll indicator) -->
-            <div class="footer">
-                <div class="progress-container">
-                    <div class="progress-bar" id="myBar"></div>
-                </div>  
-            </div>
+       
 
-            <!-- Tag fermant le contenu de la page -->
+        <!-- Tag fermant le contenu de la page -->
         </div>
         
-        
-
-
-        <!-- JS rules the world -->
-        <script>
-            // Début Script loader
-                var myVar;
-
-                function Load() {
-                myVar = setTimeout(showPage, 3000);
-                }
-
-                function showPage() {
-                document.getElementById("loader").style.display = "none";
-                document.getElementById("myDiv").style.display = "block";
-                }
-            // Fin script loader
-
-            // Début script scroll-indicator
-            // When the user scrolls the page, execute ScrollBar 
-                window.onscroll = function() {ScrollBar()};
-
-                function ScrollBar() {
-                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-                var scrolled = (winScroll / height) * 100;
-                document.getElementById("myBar").style.width = scrolled + "%";
-                }
-            // Fin script scroll-indicator
-
-            //Début "Contact" popup
-                function Pop() {
-                var popup = document.getElementById("myPopup");
-                popup.classList.toggle("show");
-                }
-            //Fin "Contact" popup
-                
-        </script>
         
     </body>
 </html>
