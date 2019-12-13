@@ -1,0 +1,48 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+body{
+	background-color:white;
+	margin: 0;
+	height: 100%;
+}
+
+#Intro{
+	background-color: black;
+	letter-spacing: 10px;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 2px;
+	padding: 1px;
+}
+nav{
+	padding: 2px 0;
+	min-width: 500px;
+	background-color: black;
+	position: sticky;
+	top: 0;
+	z-index: 9999;
+}
+nav ul{
+	background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%);
+	box-shadow: 0 0 25px rgba(0,0,0,0.1), inset 0 0 1px rgba(255,255,255,0.6);	
+	text-align:center;
+}
+nav ul li{
+	display: inline-block;
+	text-align: center;
+	
+}
+nav ul li a{
+	padding: 10px;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: Arial;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px;
+	display: block;
+}
+
+
