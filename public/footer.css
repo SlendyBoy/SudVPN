@@ -57,7 +57,51 @@ table tr td a:hover{
 
 table{
     width: 100%;
-    margin-left:20px;
+    padding-left:10px;
     margin-right:20px;
     height: 200px;
+}
+
+
+div.footerCookie{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    text-align: justify;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.footerCookieTxt{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+
+}
+
+div.footerCookieTxt a{
+    text-decoration: underline;
+    color: white;
+}
+
+div.footerCookie button.Accepter{
+    background-color: black;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 1em;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+button.Accepter:hover{
+    background-color: #4687ff;
 }
