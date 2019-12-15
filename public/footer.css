@@ -9,11 +9,31 @@ footer div#AppMobileTitre{
 }
 
 footer div#AppMobileTitre h1{
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+footer div#AppMobileTitre p{
+    font-size: 25px;
     margin-top: 0;
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+footer div#DispoPlateformes{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer div#DispoPlateformes img{
+    margin: 0;
+}
+
+
+
 table tr th {
     color: #73757a;
     text-align: left;
@@ -24,6 +44,8 @@ table tr th {
 table tr td a{
     color: white;
     font-size:20px;
+    text-decoration: none;
+    transition: 0.4s;
 
 }
 

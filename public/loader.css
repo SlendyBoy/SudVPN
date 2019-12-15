@@ -1,4 +1,4 @@
-/* Add animation to "page content" */
+/* Animation de la page entière au chargement */
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
