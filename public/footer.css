@@ -1,0 +1,107 @@
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer div#AppMobileTitre{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+footer div#AppMobileTitre h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+footer div#AppMobileTitre p{
+    font-size: 25px;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer div#DispoPlateformes{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer div#DispoPlateformes img{
+    margin: 0;
+}
+
+
+
+table tr th {
+    color: #73757a;
+    text-align: left;
+    font-size:20px;
+}
+
+
+table tr td a{
+    color: white;
+    font-size:20px;
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+
+table tr td a:hover{
+    color: #4687ff;
+    font-size:20px;
+
+}
+
+table{
+    width: 100%;
+    padding-left:10px;
+    margin-right:20px;
+    height: 200px;
+}
+
+
+div.footerCookie{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    text-align: justify;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.footerCookieTxt{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+
+}
+
+div.footerCookieTxt a{
+    text-decoration: underline;
+    color: white;
+}
+
+div.footerCookie button.Accepter{
+    background-color: black;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 1em;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+button.Accepter:hover{
+    background-color: #4687ff;
+}
