@@ -78,7 +78,10 @@ div.AboutUsOrigineTxt{
     color:black;
     margin-top: 110px;
     margin-bottom: 100px;
-    
+}
+
+div.AboutUsOrigineTxt p+p{
+    margin-bottom: 20px;
 }
 
 
