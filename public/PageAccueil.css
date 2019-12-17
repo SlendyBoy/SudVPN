@@ -257,7 +257,7 @@ div#ConnexionImg{
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1180px) {
     div#Accès {
       flex-direction: column;
       align-items: center;
