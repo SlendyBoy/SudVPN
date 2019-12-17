@@ -88,11 +88,11 @@ div#ConnexionImg{
     margin-left: 100px;
     padding-left: 15px;
     padding-right: 15px;
-    width: 420px;
-    height: 250px;
+    width: 500px;
+    height: 376px;
     overflow: hidden;
     user-select: none;
-    background-image: url(./connexion_vpn.PNG); 
+    background-image: url(./connexion_sudvpn.png); 
 	background-size: contain;
 	background-repeat: no-repeat;
     border-radius: 1em;
