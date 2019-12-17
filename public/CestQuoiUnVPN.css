@@ -82,6 +82,7 @@ div#ConnexionTxt button.ObtenirVPN{
 
 button.ObtenirVPN:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.2);
 }
 
 div#ConnexionImg{
@@ -89,7 +90,7 @@ div#ConnexionImg{
     padding-left: 15px;
     padding-right: 15px;
     width: 500px;
-    height: 376px;
+    height: 290px;
     overflow: hidden;
     user-select: none;
     background-image: url(./connexion_sudvpn.png); 
