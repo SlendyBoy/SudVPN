@@ -220,6 +220,62 @@ div.ArgumentsDeVenteTxt h1+p{
     font-weight: 400;
 }
 
+div#AvisEnsemble{
+    padding: 90px 130px;
+}
+
+.containerAvis{
+    width: 100%;
+    background-color: #ddd;
+}
+  
+.Avis{
+    text-align: right;
+    text-shadow: black 2px 2px 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    color: white;
+}
+  
+.One {width: 1%; background-color: #ff8c5a;}
+.Two {width: 10%; background-color: #ffb235;}
+.Three {width: 20%; background-color: #ffd935;}
+.Four {width: 55%; background-color: #aed888;}
+.Five {width: 99%; background-color: #79c9a1;}
+
+span.checked{
+    color:orange;
+}
+
+div#Commentaire {
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+div#Encadre{
+    padding: 20px;
+    padding-bottom:10px;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+p.date {
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(136, 135, 135);
+    text-align: right;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
 div.CommentaireInput{
     margin-top:50px;
     margin-left: auto;
@@ -228,6 +284,17 @@ div.CommentaireInput{
     margin-right: 25%;
     margin-bottom: 150px;
     position:relative;
+}
+
+div.CommentaireInput textarea{
+    resize: none;
+    margin-left:25%;
+    margin-right:25%;
+    margin-bottom:20px;
+    border-radius: 1em;
+    padding: 10px;
+    border: 1px solid black;
+    overflow-y: hidden;
 }
 
 button.SendCom{
@@ -239,7 +306,8 @@ button.SendCom{
     padding: 15px 20px;
     text-align: center;
     font-size: 15px;
-    margin: 20px 2px;
+    margin-left: 25%;
+    margin-right: 25%;
     transition: 0.4s;
 }
 button.SendCom:hover{

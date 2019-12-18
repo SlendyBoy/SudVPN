@@ -85,6 +85,11 @@ button.ObtenirVPN:hover{
     transform: scale(1.2);
 }
 
+button.ObtenirVPN a{
+    text-decoration: none;
+    color:white;
+}
+
 div#ConnexionImg{
     margin-left: 100px;
     padding-left: 15px;
