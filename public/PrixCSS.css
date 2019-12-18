@@ -69,6 +69,7 @@ div.TxtOnImage button.Tarifs a{
 }
 button.Tarifs:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.2);
 }
 
 
@@ -103,7 +104,7 @@ div.TxtOnImage p.Garantie30jours:before{
 .ColPrix1, .ColPrix2, .ColPrix3, .ColPrix4 {
   flex: 25%;
   padding: 20px;
-  height: 600px;
+  height: 500px;
   background-color: white;
   border: 5px solid #4687ff;
   text-align: center;
@@ -123,18 +124,24 @@ p.Prix{
     
 }
 
+div#FlexEco1, div#FlexEco2, div#FlexEco3, div#FlexEco4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 span.Economie{
-    background-color: #383c4d;
+    /* background-color: #383c4d; */
     width: 180px;
-    height: 10px;
+    height: 25px;
     font-size: 20px;
-    line-height: 20px;
     border:none;
     padding: 0 10px;
     border-radius: 16px;
     color: white;
     margin-bottom:10px;
     vertical-align: middle;
+    background: linear-gradient(to bottom right, #ff97a5, #ff0c2c);
     
    
 }
@@ -161,7 +168,7 @@ div.ColPrix1 button.Commander1{
 }
 
 
-button.Commander1+p, button.Commander2+p, button.Commander3+p{
+button.Commander1+p, div#FlexEco2+p, div#FlexEco3+p{
     text-decoration: line-through;
     text-decoration-color: #f64f64;
     color: #f64f64;
@@ -187,7 +194,13 @@ button.Commander1:hover, button.Commander2:hover, button.Commander3:hover, butto
     transform: scale(1.1);
 }
 
-
+/* Display in column "Span.Eco" and buttons */
+@media screen and (max-width: 1600px) {
+    div#FlexEco1, div#FlexEco2, div#FlexEco3, div#FlexEco4 {
+      flex-direction: column;
+      align-items: center;
+    }
+}
 
 /* 4 columns --> 2 columns */
 @media screen and (max-width: 992px) {
@@ -202,3 +215,5 @@ button.Commander1:hover, button.Commander2:hover, button.Commander3:hover, butto
     flex-direction: column;
   }
 }
+
+
