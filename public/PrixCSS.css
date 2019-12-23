@@ -220,8 +220,14 @@ div.ArgumentsDeVenteTxt h1+p{
     font-weight: 400;
 }
 
+h1.TitreAvis{
+    margin-top:100px;
+    text-align: center;
+}
+
 div#AvisEnsemble{
-    padding: 90px 130px;
+    padding: 90px 50px;
+    padding-top: 50px;
 }
 
 .containerAvis{
@@ -250,9 +256,11 @@ span.checked{
 
 div#Commentaire {
     margin-top: 50px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
+
+
 
 div#Encadre{
     padding: 20px;
@@ -270,16 +278,8 @@ p.date {
 }
 
 
-
-
-
-
-
-
 div.CommentaireInput{
-    margin-top:50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top:100px;
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 150px;
@@ -288,7 +288,8 @@ div.CommentaireInput{
 
 div.CommentaireInput textarea{
     resize: none;
-    margin-left:25%;
+    font-family: 'Raleway';
+    max-width: 100%;
     margin-right:25%;
     margin-bottom:20px;
     border-radius: 1em;
@@ -306,7 +307,6 @@ button.SendCom{
     padding: 15px 20px;
     text-align: center;
     font-size: 15px;
-    margin-left: 25%;
     margin-right: 25%;
     transition: 0.4s;
 }

@@ -38,7 +38,7 @@ p.Slogan{
 
 nav{
 	padding: 2px 0;
-	min-width: 500px;
+	max-width: 100%;
 	background-color: #4687ff;
 	position: sticky;
 	top: 0;
@@ -59,7 +59,6 @@ nav ul li a{
 	font-size: 18px;
 	font-family: 'Raleway';
 	text-decoration: none;
-	text-shadow: 2px 2px 2px;
 	display: block;
 	transition: 0.3s;
 	user-select: none;
@@ -69,7 +68,6 @@ nav ul li a:hover{
 	transform: scale(1.1);
 }
 
-/* Input container */
 nav .search-container {
 	float: right;
 	margin-top: 5px;
@@ -78,18 +76,17 @@ nav .search-container {
   }
   
  
-  /* Input field inside the navbar */
-  nav input[type=text] {
+nav input[type=text] {
 	padding: 6px;
 	font-size: 17px;
 	border: none;
   }
  
   
-  /* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
-  @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 	nav .search-container {
 	  float: none;
+	  padding-right: 0;
 	}
 	nav a, nav input[type=text]{
 	  float: none;
@@ -98,17 +95,23 @@ nav .search-container {
 	  width: 100%;
 	  margin: 0;
 	  padding: 10px;
+	  padding-right: 0;
 	}
 	nav input[type=text] {
 	  border: 1px solid #ccc;
 	}
-
+	nav{
+		position: relative;
+	}
 	ul{
 		padding:0;
 	}
-	/*
 	nav ul li{
 		display: block;
-	}*/
-  }
+	}
+	nav ul li a:hover{
+		transform: translateX(10px);
+	}
+	
+}
 
