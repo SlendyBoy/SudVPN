@@ -98,7 +98,7 @@ div#ConnexionImg{
     height: 290px;
     overflow: hidden;
     user-select: none;
-    background-image: url(./connexion_sudvpn.png); 
+    background-image: url(./connexion_sudvpn.png);
 	background-size: contain;
 	background-repeat: no-repeat;
     border-radius: 1em;
