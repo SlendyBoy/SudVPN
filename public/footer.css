@@ -36,7 +36,7 @@ footer div#DispoPlateformes img{
 
 table tr th {
     color: #73757a;
-    text-align: left;
+    
     font-size:20px;
 }
 
@@ -59,10 +59,12 @@ table{
     width: 100%;
     padding-left:10px;
     margin-right:20px;
+    text-align: center;
     height: 200px;
 }
 
 
+/*  
 div.footerCookie{
     position: fixed;
     left: 0;
@@ -105,3 +107,5 @@ div.footerCookie button.Accepter{
 button.Accepter:hover{
     background-color: #4687ff;
 }
+*/
+
