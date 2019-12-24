@@ -1,15 +1,17 @@
 div#LesResultats {
-    margin-left:5%;
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:2%;
     margin-bottom:150px;
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .recherche {
-    width:1000px;
-    height:230;
+    width: 900px;
+    height:350px;
     padding-top:50px;
     border-top: 1px solid black;
     margin-top: 50px;
@@ -19,21 +21,42 @@ p {
 .imageproduit {
     background-repeat: no-repeat;
     background-size: contain;
+    background-position:center;
     margin-left:15px;
     margin-right:15px;
     border: 1px solid black;
     border-radius: 1em;
     height: 350px;
+    width: 1220px;
 }
 
 div#image3ans {
     background-image: url(troisans.JPG);
-    width: 970px;
+    
 }
 
 
 div#perenoel {
     background-image: url(perenoel.jpg);
-    width: 500px;
+    
 }
 
+div#image2ans {
+    background-image: url(2ans.JPG);
+    
+}
+
+div#image1ans {
+    background-image: url(1ans.JPG);
+    
+}
+
+div#image1mois {
+    background-image: url(1mois.JPG);
+    
+}
+
+div#mot_de_passe {
+    background-image: url(mot_de_passe.png);
+    
+}
