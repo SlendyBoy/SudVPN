@@ -115,40 +115,76 @@
                                 <div class="Ligne4Droite">75.12€</div>
                             </div>
                         </div>
+
                         <hr>
 
                         <div class="Form">
-                            <div id="row-paiement">
+                            <div id="row-form">
                                 <div class="ColPrénom">
-                                    Prénom
-                                    <input type="text" name="firstname">
-                                       
-                                    
+                                    <div class="FlexContainer">
+                                        <p>Prénom</p>
+                                        <input type="text" name="firstname">
+                                    </div>   
                                 </div>
                                 
                                 <div class="ColNom">
-                                    Nom
-                                    <input type="text" name="lastname">
-                                        
-                                    
+                                    <div class="FlexContainer">
+                                        <p>Nom</p>
+                                        <input type="text" name="lastname">
+                                    </div>    
                                 </div>
                                 
                                 <div class="ColNumCB">
-                                   Numéro de la carte
-                                   <input type="text" name="NumCB" placeholder="0000 0000 0000 0000">
-                                     
-                                 
+                                    <div class="FlexContainer">
+                                        <p>Numéro de la carte</p>
+                                        <input type="text" name="NumCB" placeholder="0000 0000 0000 0000">
+                                    </div> 
                                 </div>
                                 
                                 <div class="ColDateExpiration">
-                                  Date d'expiration
-                                  <input type="text" name="ExpirationDate" placeholder="MM/AA">
-                                     
-                                  
+                                    <div class="FlexContainer">
+                                        <p>Date d'expiration</p>
+                                        <input type="text" name="ExpirationDate" placeholder="MM/AA">
+                                    </div>
+                                </div>
+                            
+                                <div class="ColCVV">
+                                    <div class="FlexContainer">
+                                        <p>CVV</p>
+                                        <input type="text" name="CVV" placeholder="000">
+                                    </div>   
+                                </div>
+                                
+                                <div class="ColMail">
+                                    <div class="FlexContainer">
+                                        <p>Mail</p>
+                                        <input type="text" name="Mail" placeholder="example@gmail.com">
+                                    </div>    
+                                </div>
+                                
+                                <div class="ColAdresse">
+                                    <div class="FlexContainer">
+                                        <p>Adresse</p>
+                                        <input type="text" name="Adresse" placeholder="92 Boulevard Niels Bohr">
+                                    </div> 
+                                </div>
+                                
+                                <div class="ColCodePostal">
+                                    <div class="FlexContainer">
+                                        <p>Code Postal</p>
+                                        <input type="text" name="CodePostal" placeholder="69100">
+                                    </div>
                                 </div>
                             </div>
-
                         </div>
+
+                        <hr>
+                        <div class="Validation">
+                            <p>En soumettant ce formulaire, vous acceptez nos Conditions d’utilisation et notre Politique de Confidentialité.</p>
+                            <p>Si vous ne souhaitez plus recevoir d’informations sur les services proposés par SudVPN, veuillez nous envoyer un e-mail à l’adresse : privacy@sudvpn.com.</p>
+                            <button class="Valider"><a href="#Intro">Commander</a></button>
+                        </div>
+                    
                     </div>
 
                 <!-- Fin "Ticket de caisse" -->
@@ -212,3 +248,6 @@
                     </table>
                 </footer>
         </div>
+
+    </body>
+</html>
