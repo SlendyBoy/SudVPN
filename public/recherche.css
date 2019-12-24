@@ -26,7 +26,6 @@ p {
     margin-right:15px;
     border: 1px solid black;
     border-radius: 1em;
-    height: 270px;
     width: 1220px;
 }
 
@@ -59,4 +58,12 @@ div#image1mois {
 div#mot_de_passe {
     background-image: url(mot_de_passe.png);
     
+}
+
+div#logosudvpn {
+    background-image: url(SudVPNLogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 600px;
 }
