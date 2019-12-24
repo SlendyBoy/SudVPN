@@ -251,6 +251,7 @@ div.ColPrénom, div.ColNom, div.ColNumCB, div.ColDateExpiration {
 }
 
 div.Form{
+    margin-top: 70px;
     margin-bottom:10px;
 }
 
@@ -283,7 +284,7 @@ div.ColCVV, div.ColMail, div.ColAdresse, div.ColCodePostal {
 
 div.Validation{
     padding: 10px;
-    margin-top:100px;
+    margin-top:70px;
 }
 
 div.Validation button.Valider{
