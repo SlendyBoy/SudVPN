@@ -118,14 +118,12 @@ label.container {
     display: block;
     position: relative;
     padding-left: 35px;
-    margin-bottom: 12px;
     cursor: pointer;
     font-size: 22px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    
 }
   
 /* Hide the browser's default radio button */
@@ -220,6 +218,7 @@ div.Ligne1Gauche, div.Ligne2Gauche, div.Ligne3Gauche, div.Ligne4Gauche{
 div.Ligne1Droite, div.Ligne2Droite, div.Ligne3Droite, div.Ligne4Droite{
     text-align:right;
     margin:0;
+    margin-left:30px;
 }
 
 div.Ligne2Droite{
@@ -306,4 +305,36 @@ div.Validation button.Valider a{
 button.Valider:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     transform: scale(1.2);
+}
+
+
+
+@media screen and (max-width: 630px) {
+    .ColPaiement1, .ColPaiement2, .ColPaiement3, .ColPaiement4 {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    div#TicketDeCaisse{
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    #row-paiement {
+        flex-direction: column;
+      }
+}
+
+@media screen and (max-width: 270px) {
+    div.Ligne4{
+        flex-direction: column;
+    }
+    div.Ligne4Droite{
+        text-align: left;
+        margin-left:0;
+    }
 }
