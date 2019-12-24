@@ -126,6 +126,7 @@ label.container {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    
 }
   
 /* Hide the browser's default radio button */
@@ -176,4 +177,74 @@ label.container span.checkmark:after {
     height: 8px;
     border-radius: 50%;
     background: white;
+}
+
+
+div#TicketDeCaisse{
+    margin-left:25%;
+    margin-right:25%;
+    margin-bottom: 150px;
+    border-radius: 1em;
+    border:1px solid rgb(46, 46, 46);
+}
+
+div.Calcul{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 100%;
+}
+
+div.Ligne1,div.Ligne2,div.Ligne3,div.Ligne4{
+    width: 100%;
+    margin-bottom: 10px;
+    /* Pour Debug border:1px solid red; */
+    flex-direction: row;
+    justify-content: space-between;
+    display:flex;
+    line-height: 30px;
+}
+div.Ligne1,div.Ligne2,div.Ligne3{
+    font-size:18px;
+}
+div.Ligne4{
+    font-size:30px;
+    font-weight: 520;
+}
+
+div.Ligne1Gauche, div.Ligne2Gauche, div.Ligne3Gauche, div.Ligne4Gauche{
+    text-align: left;
+    margin:0;
+}
+div.Ligne1Droite, div.Ligne2Droite, div.Ligne3Droite, div.Ligne4Droite{
+    text-align:right;
+    margin:0;
+}
+
+div.Ligne2Droite{
+    color: #f64f64;
+}
+
+hr{
+    width: 50%;
+}
+
+.ColPrénom, .ColNom, .ColNumCB, .ColDateExpiration {
+    flex: 50%;
+    padding: 20px;
+    height: 100px;
+    background-color: white;
+    border: 5px solid #4687ff;
+    text-align: center;
+}
+
+div.Form input[type=text] {
+	padding: 6px;
+	font-size: 17px;
+    border:1px solid #b9babd;
+    border-radius: 4px;
+    height:40px;
+    font-family:'Raleway';
 }
