@@ -131,7 +131,6 @@ div#FlexEco1, div#FlexEco2, div#FlexEco3, div#FlexEco4{
 }
 
 span.Economie{
-    /* background-color: #383c4d; */
     width: 180px;
     height: 25px;
     font-size: 20px;
@@ -165,6 +164,12 @@ div.ColPrix1 button.Commander1{
     font-size: 16px;
     margin: 20px 2px;
     transition: 0.4s;
+    
+}
+
+div.ColPrix1 button.Commander1 a, div.ColPrix2 button.Commander2 a, div.ColPrix3 button.Commander3 a, div.ColPrix4 button.Commander4 a{
+    text-decoration: none;
+    color:white;
 }
 
 
@@ -187,6 +192,7 @@ div.ColPrix2 button.Commander2, div.ColPrix3 button.Commander3, div.ColPrix4 but
     font-size: 16px;
     margin: 20px 2px;
     transition: 0.4s;
+    text-decoration: none;
 }
 
 button.Commander1:hover, button.Commander2:hover, button.Commander3:hover, button.Commander4:hover{

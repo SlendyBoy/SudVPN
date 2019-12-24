@@ -1,4 +1,4 @@
-.bgimg-0, .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-0, .bgimg-1, .bgimg-2, .bgimg-3{
     position: relative;
     opacity: 1;
     background-attachment: fixed;
@@ -12,23 +12,18 @@
     background-image: url("feu-artifice-couleurs.jpg");
     min-height: 900px;
   }
-
-  .bgimg-1 {
-    background-image: url("Linus.jpg");
-    min-height: 500px;
-  }
   
-  .bgimg-2 {
-    background-image: url("code2.jpg");
+  .bgimg-1 {
+    background-image: url("securefiles.png");
     min-height: 400px;
   }
   
-  .bgimg-3 {
+  .bgimg-2 {
     background-image: url("PersonalData.png");
     min-height: 400px;
   }
 
-  .bgimg-4 {
+  .bgimg-3 {
     background-image: url("SecureServers.jpeg");
     min-height: 400px;
   }
