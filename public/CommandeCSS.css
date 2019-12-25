@@ -126,14 +126,14 @@ label.container {
     user-select: none;
 }
   
-/* Hide the browser's default radio button */
+/* Cache le radio button par défaut*/
 label.container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
 }
   
-/* Create a custom radio button */
+/* Crée un radio button personnalisé*/
 span.checkmark {
     position: absolute;
     top: 0;
@@ -144,29 +144,29 @@ span.checkmark {
     border-radius: 50%;
 }
   
-/* On mouse-over, add a grey background color */
+
 label.container:hover input ~ span.checkmark {
     background-color: #ccc;
 }
   
-/* When the radio button is checked, add a blue background */
+/* Quand radio button checked, fond bleu */
 label.container input:checked ~ span.checkmark {
     background-color: #2196F3;
 }
   
-/* Create the indicator (the dot/circle - hidden when not checked) */
+/* Crée le point blanc, caché quand pas checked*/
 span.checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
   
-/* Show the indicator (dot/circle) when checked */
+/* Montre le point blanc quand checked */
 label.container input:checked ~ span.checkmark:after {
     display: block;
 }
   
-/* Style the indicator (dot/circle) */
+/* Style du point */
 label.container span.checkmark:after {
     top: 9px;
     left: 9px;
@@ -197,7 +197,6 @@ div.Calcul{
 div.Ligne1,div.Ligne2,div.Ligne3,div.Ligne4{
     width: 100%;
     margin-bottom: 10px;
-    /* Pour Debug border:1px solid red; */
     flex-direction: row;
     justify-content: space-between;
     display:flex;

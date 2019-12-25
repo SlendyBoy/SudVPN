@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 div.ImgIntro{
     position: relative;
     background-attachment: fixed;
