@@ -89,8 +89,11 @@ div#logosudvpn {
     background-image: url(SudVPNLogo.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 300px;
-    width: 600px;
+    background-position: center;
+    margin-bottom: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 150px;
 }
 
 @media screen and (max-width: 600px) {
