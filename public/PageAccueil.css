@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: border-box; /*Inclus padding et border dans le total de la largeur et de la hauteur*/
 }
 
 
@@ -12,7 +12,6 @@ div.TxtOnImage{
     padding-top: 85px;
     text-shadow: 3px 3px 3px black;
     max-width: 100%;
-    
 }
 
 div.TxtOnImage h1{
@@ -24,7 +23,6 @@ div.TxtOnImage h2{
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-
 }
 
 div.TxtOnImage p.Reduction{
@@ -32,7 +30,6 @@ div.TxtOnImage p.Reduction{
     font-weight: 600;
     text-decoration: line-through;
     text-decoration-color: red;
-
 }
 
 div.TxtOnImage h3{
@@ -46,7 +43,6 @@ div.TxtOnImage h3{
     height: 100%;
     display:block;
     position:center;
-
 }
 
 div.TxtOnImage button.Tarifs{
@@ -84,7 +80,7 @@ div.TxtOnImage p.Garantie30jours:before{
 
 
 
-div#Accès{
+div#Accès{/*Div en flex, row contenant le texte et l'image*/
     background-color:white;
     display:flex;
     align-items: center;
@@ -148,7 +144,7 @@ div#AccèsImg{
 
 
 
-div#ProtectionDesAppareils{
+div#ProtectionDesAppareils{/*Div en flex, row contenant le texte et l'image*/
     background-color:white;
     display:flex;
     align-items: center;
@@ -177,7 +173,7 @@ div#ProtectionDesAppareilsTxt div#SupportedPlatforms{
 }
 
 div#ProtectionDesAppareilsTxt div#SupportedPlatforms img{
-    vertical-align: sub;
+    vertical-align: sub; /*Alignement vertical*/
     user-select: none;
 }
 
@@ -214,7 +210,7 @@ div#ProtectionDesAppareilsImg{
 
 
 
-div#Connexion{
+div#Connexion{/*Div en flex, row contenant le texte et l'image*/
     background-color:white;
     display:flex;
     align-items: center;
@@ -271,7 +267,7 @@ div#ConnexionImg{
 
 @media screen and (max-width: 1180px) {
     div#Accès {
-      flex-direction: column;
+      flex-direction: column;/*Div en colonne contenant le texte et l'image*/
       align-items: center;
       max-width: 100%;
       
@@ -283,7 +279,7 @@ div#ConnexionImg{
         max-width: 100%;
     }
 
-    div#ProtectionDesAppareils {
+    div#ProtectionDesAppareils { /*Div en colonne contenant le texte et l'image*/
         flex-direction: column;
         align-items: center;
         max-width: 100%;
@@ -300,7 +296,7 @@ div#ConnexionImg{
         max-width: 100%;
     }
 
-    div#Connexion {
+    div#Connexion { /*Div en colonne contenant le texte et l'image*/
         flex-direction: column;
         align-items: center;
         max-width: 100%;
@@ -315,13 +311,13 @@ div#ConnexionImg{
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px){ /*Augmente la taille des div*/
     div#Accès {height: 1000px;}
     div#ProtectionDesAppareils{height: 1000px;}
     div#Connexion{height: 1000px;}
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px){ /*Augmente encore plus la taille des div*/
     div#ProtectionDesAppareils{height: 1200px;}
     div#Connexion{height: 1200px;}
     div#ConnexionImg{height:250px;}

@@ -1,4 +1,4 @@
-/* Animation de la page entière au chargement */
+/* Animation de la page entière au chargement, apparaît du bas vers le haut */
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;

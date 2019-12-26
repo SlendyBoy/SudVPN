@@ -1,4 +1,4 @@
-.bgimg-0, .bgimg-1, .bgimg-2, .bgimg-3{
+.bgimg-0, .bgimg-1, .bgimg-2, .bgimg-3{ /*Effet parallax*/
     position: relative;
     opacity: 1;
     background-attachment: fixed;

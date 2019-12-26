@@ -1,13 +1,12 @@
 html{
-	scroll-behavior: smooth;
+	scroll-behavior: smooth;/* Quality of Life */
 }
-
 
 body{
 	background-color:white;
 	margin: 0;
 	height: 100%;
-	font-family: 'Raleway';
+	font-family: 'Raleway'; /* Police bien sympa */
 }
 
 div#Intro{
@@ -18,7 +17,7 @@ div#Intro{
 	padding: 1px;
 }
 
-div#Intro img.logo{
+div#Intro img.logo{ /*Placement du logo en haut à gauche*/
 	position: fixed top left;
 	user-select: none;
 	height: 100px;
@@ -34,24 +33,23 @@ p.Slogan{
 	font-size: 15px;
 	font-style: italic;
 	color: #8a8c98;
-	
 }
 
 nav{
 	padding: 2px 0;
 	max-width: 100%;
 	background-color: #4687ff;
-	position: sticky;
+	position: sticky; /*Colle la navbar en haut*/
 	top: 0;
-	z-index: 9999;
+	z-index: 9999; /* Evite que la navbar se retrouve en dessous des div*/
 }
-nav ul{
+nav ul{ /*Navbar effet transparent*/
 	background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%);
 	box-shadow: 0 0 25px rgba(0,0,0,0.1), inset 0 0 1px rgba(255,255,255,0.6);	
 	text-align:left;
 }
 nav ul li{
-	display: inline-block;
+	display: inline-block; /*Display en ligne*/
 }
 
 nav ul li a{
@@ -85,7 +83,7 @@ nav input[type=text] {
   }
  
   
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {/*Responsivité de la navbar*/
 	nav .search-container {
 	  float: none;
 	  padding-right: 0;

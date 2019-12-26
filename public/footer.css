@@ -36,7 +36,6 @@ footer div#DispoPlateformes img{
 
 table tr th {
     color: #73757a;
-    
     font-size:20px;
 }
 
@@ -46,13 +45,11 @@ table tr td a{
     font-size:20px;
     text-decoration: none;
     transition: 0.4s;
-
 }
 
 table tr td a:hover{
     color: #4687ff;
     font-size:20px;
-
 }
 
 table{
@@ -62,7 +59,8 @@ table{
     text-align: center;
     height: 200px;
 }
-@media screen and (max-width: 320px) {
+
+ @media screen and (max-width: 320px) { /* Pour que la table soit entièremetn visible */
     table{
         padding-left: 0;
         padding-right: 0;

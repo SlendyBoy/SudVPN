@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: border-box; /*Inclus padding et border dans le total de la largeur et de la hauteur*/
 }
 
 div#image_terre h1 {
@@ -23,8 +23,6 @@ div#image_terre {
 }
 
 div#IntroVPNContainer{
-	margin-left: auto;
-    margin-right: auto;
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 150px;
@@ -48,7 +46,6 @@ div#IntroVPNContainer img{
     max-width: 100%;
     border:0;
     box-sizing: border-box;
-
 }
 
 
@@ -63,7 +60,6 @@ div#Connexion{
     justify-content: space-around;
     position: relative;
     max-width: 100%;
-    
 }
 
 div#ConnexionTxt{
@@ -122,26 +118,28 @@ div#ConnexionImg{
 @media screen and (max-width: 1180px) {
 
 	div#Connexion {
-        flex-direction: column;
+        flex-direction: column; /*On affiche en colonne*/
         align-items: center;
         max-width: 100%;
     }
-    
 	div#ConnexionTxt {
         align-items: center;
         max-width: 100%;
         height: auto;
     }
-    
     div#ConnexionImg{
         margin-left: 0;
         margin-top:50px;
         margin-bottom: 50px;
         max-width: 100%;
     }
-
 }
 
 @media screen and (max-width: 500px) {
-    div#Connexion {height:1200px}
+    div#Connexion {height:1200px} /* on augmente la hauteur de la div*/
+
+    div#IntroVPNContainer{
+        margin-left: 15%; /* On élargit les blocs de texte sur les petits écrans*/
+        margin-right: 15%;
+    }
 }

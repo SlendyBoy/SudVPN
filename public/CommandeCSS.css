@@ -1,5 +1,5 @@
 *{
-  box-sizing: border-box;
+  box-sizing: border-box; /*Inclus padding et border dans le total de la largeur et de la hauteur*/
 }
 
 .Noel {
@@ -105,7 +105,7 @@ h1.TitrePaiement{
   
 
 .ColPaiement1, .ColPaiement2, .ColPaiement3, .ColPaiement4 {
-    flex: 25%;
+    flex: 25%;/* 4 colonnes */
     padding: 20px;
     height: 100px;
     background-color: white;
@@ -188,7 +188,7 @@ div#TicketDeCaisse{
 div.Calcul{
     padding:10px;
     display:flex;
-    flex-direction: column;
+    flex-direction: column; /*Met en colonne chaque ligne*/
     flex-wrap: wrap;
     position: relative;
     max-width: 100%;
@@ -197,7 +197,7 @@ div.Calcul{
 div.Ligne1,div.Ligne2,div.Ligne3,div.Ligne4{
     width: 100%;
     margin-bottom: 10px;
-    flex-direction: row;
+    flex-direction: row; /*Met en row les 2 éléments de chaque ligne et met un espace entre eux*/
     justify-content: space-between;
     display:flex;
     line-height: 30px;
@@ -210,11 +210,11 @@ div.Ligne4{
     font-weight: 520;
 }
 
-div.Ligne1Gauche, div.Ligne2Gauche, div.Ligne3Gauche, div.Ligne4Gauche{
+div.Ligne1Gauche, div.Ligne2Gauche, div.Ligne3Gauche, div.Ligne4Gauche{ /* Correspond aux libellés(TVA,Total...) */
     text-align: left;
     margin:0;
 }
-div.Ligne1Droite, div.Ligne2Droite, div.Ligne3Droite, div.Ligne4Droite{
+div.Ligne1Droite, div.Ligne2Droite, div.Ligne3Droite, div.Ligne4Droite{/* Correspond aux prix (non réalistes) */
     text-align:right;
     margin:0;
     margin-left:30px;
@@ -241,7 +241,7 @@ hr{
 }
 
 div.ColPrénom, div.ColNom, div.ColNumCB, div.ColDateExpiration {
-    flex: 50%;
+    flex: 50%; /* 2 colonnes */
     padding: 20px;
     height: 130px;
     background-color: white;
@@ -265,7 +265,7 @@ div.Form input[type=text] {
 
 div.FlexContainer{
     display:flex;
-    flex-direction: column;
+    flex-direction: column; /*Met en colonne le titre de l'input et l'input lui-même*/
 }
 
 div.FlexContainer p{
@@ -273,7 +273,7 @@ div.FlexContainer p{
 }
 
 div.ColCVV, div.ColMail, div.ColAdresse, div.ColCodePostal {
-    flex: 25%;
+    flex: 25%; /*4 colonnes sur grannnnds écrans (testé et approuvé sur TV 4k)*/
     padding: 20px;
     height: 130px;
     background-color: white;
@@ -311,13 +311,13 @@ button.Valider:hover{
 
 @media screen and (max-width: 630px) {
     .ColPaiement1, .ColPaiement2, .ColPaiement3, .ColPaiement4 {
-        flex: 50%;
+        flex: 50%; /* 4 colonnes --> 2 colonnes */
     }
 }
 
 @media screen and (max-width: 500px) {
     div#TicketDeCaisse{
-        margin-left:10%;
+        margin-left:10%; /* Elargissement ticket de caisse */
         margin-right:10%;
     }
 
@@ -325,11 +325,11 @@ button.Valider:hover{
 
 @media screen and (max-width: 440px) {
     #row-paiement {
-        flex-direction: column;
+        flex-direction: column; /*2 colonnes --> 1 colonne */
       }
 }
 
-@media screen and (max-width: 270px) {
+@media screen and (max-width: 270px) { /*Pour pas que la ligne du Total dépasse du ticket du fait du font-size*/
     div.Ligne4{
         flex-direction: column;
     }

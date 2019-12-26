@@ -9,7 +9,7 @@ h1.TitreResultat{
 
 div#LesResultats {
     display:flex;
-    flex-direction: column;
+    flex-direction: column; /* Les résultats sont en colonne*/
     flex-wrap:wrap;
     margin-left:25%;
     margin-right: 25%;
@@ -24,7 +24,7 @@ div#LesResultats {
     padding-top:50px;
     border-top: 1px solid black;
     margin-top: 50px;
-    display:flex;
+    display:flex; /* Chaque div "recherche" est flex, en row et en mode wrap, permettant la description d'être en dessous*/
     
     align-items: center;
     flex-direction: row;
@@ -94,16 +94,17 @@ div#logosudvpn {
     margin-left: 25%;
     margin-right: 25%;
     height: 150px;
+    max-width:100%;
 }
 
 @media screen and (max-width: 600px) {
     
-    div#LesResultats {
+    div#LesResultats { /* Augmente la largeur de la div des résultats */
         margin-left: 10%;
         margin-right: 10%;
     }
 
-    div.recherche{
+    div.recherche{ /* Augmente la hauteur de la div de chaque recherche */
         height:700px;
     }
 }

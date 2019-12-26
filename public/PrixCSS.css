@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box; /*Inclus padding et border dans le total de la largeur et de la hauteur*/
+}
+
 .Noel {
     background-image: url("arbreNoel.jpg");
     min-height: 900px;
@@ -85,12 +89,7 @@ div.TxtOnImage p.Garantie30jours:before{
 
 
 
-
-*{
-  box-sizing: border-box;
-}
-
-/* Container for flexboxes */
+/* Conteneur des prix */
 #row-prix {
   display: flex;
   flex-wrap: wrap;
@@ -100,7 +99,7 @@ div.TxtOnImage p.Garantie30jours:before{
   margin-right: 20px;
 }
 
-/* 4 equal columns */
+/* 4 colonnes */
 .ColPrix1, .ColPrix2, .ColPrix3, .ColPrix4 {
   flex: 25%;
   padding: 20px;
@@ -121,7 +120,6 @@ p.Prix{
     font-weight: 700;
     margin-top:20px;
     margin-bottom:20px;
-    
 }
 
 div#FlexEco1, div#FlexEco2, div#FlexEco3, div#FlexEco4{
@@ -141,8 +139,6 @@ span.Economie{
     margin-bottom:10px;
     vertical-align: middle;
     background: linear-gradient(to bottom right, #ff97a5, #ff0c2c);
-    
-   
 }
 
 div.ColPrix1 p:nth-last-of-type(3){
@@ -150,7 +146,6 @@ div.ColPrix1 p:nth-last-of-type(3){
     font-weight: 800;
     font-size: 30px;
     font-style: italic;
-
 }
 
 div.ColPrix1 button.Commander1{
@@ -164,7 +159,6 @@ div.ColPrix1 button.Commander1{
     font-size: 16px;
     margin: 20px 2px;
     transition: 0.4s;
-    
 }
 
 div.ColPrix1 button.Commander1 a, div.ColPrix2 button.Commander2 a, div.ColPrix3 button.Commander3 a, div.ColPrix4 button.Commander4 a{
@@ -216,7 +210,6 @@ div.ArgumentsDeVenteTxt{
     color:black;
     margin-top: 110px;
     line-height: 30px;
-    
 }
 div.ArgumentsDeVenteTxt h1{
     margin-bottom:80px;
@@ -249,7 +242,7 @@ div#AvisEnsemble{
     padding-right: 5px;
     color: white;
 }
-  
+/*Nombre d'avis par nombre d'étoile donné*/
 .One {width: 1%; background-color: #ff8c5a;}
 .Two {width: 10%; background-color: #ffb235;}
 .Three {width: 20%; background-color: #ffd935;}
@@ -275,7 +268,7 @@ div#Encadre{
     border-radius: 1em;
 }
 
-p.date {
+p.date { /*Date du commentaire*/
     font-style: italic;
     font-size: 15px;
     color: rgb(136, 135, 135);
@@ -326,7 +319,7 @@ button.SendCom:hover{
 
 
 
-/* Display in column "Span.Eco" and buttons */
+/* Colonne contenant "Span.Eco" et button */
 @media screen and (max-width: 1600px) {
     div#FlexEco1, div#FlexEco2, div#FlexEco3, div#FlexEco4 {
       flex-direction: column;
@@ -334,17 +327,22 @@ button.SendCom:hover{
     }
 }
 
-/* 4 columns --> 2 columns */
+/* 4 colonnes --> 2 colonnes */
 @media screen and (max-width: 992px) {
     .ColPrix1, .ColPrix2, .ColPrix3, .ColPrix4 {
     flex: 50%;
   }
 }
 
-/* Columns stack*/
+
 @media screen and (max-width: 600px) {
   #row-prix {
-    flex-direction: column;
+    flex-direction: column;/* 1 colonne des prix*/
+  }
+
+  div#Commentaire, div.CommentaireInput { /*Elargissment des coms*/
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
 

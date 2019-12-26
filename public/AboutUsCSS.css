@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: border-box; /*Inclus padding et border dans le total de la largeur et de la hauteur*/
 }
 
 div.ImgIntro{
@@ -16,25 +16,19 @@ div.TxtOnImage{
     position:relative;
     text-align: center;
     color:white;
-    margin-left: auto;
-    margin-right: auto;
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 200px;
     text-shadow: 2px 2px 2px black;
-    
 }
 
 div.TxtOnImage h1{
     font-size: 40px;
     margin:0;
-    
 }
 
 
 div.AboutUsIntro{
-    margin-left: auto;
-    margin-right: auto;
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 150px;
@@ -48,7 +42,6 @@ div.AboutUsIntroTxt{
     margin-top: 110px;
     font-weight: 550;
     line-height: 30px;
-    
 }
 
 
@@ -59,14 +52,11 @@ div.AboutUsIntro img{
     max-width: 100%;
     border:0;
     box-sizing: border-box;
-
 }
 
 
 
 div.AboutUsOrigine{
-    margin-left: auto;
-    margin-right: auto;
     margin-left: 25%;
     margin-right: 25%;
     position: relative;
@@ -92,8 +82,6 @@ div.AboutUsOrigineTxt p+p{
 
 
 div.AboutUsManifesto{
-    margin-left: auto;
-    margin-right: auto;
     margin-left: 25%;
     margin-right: 25%;
     position: relative;
@@ -105,7 +93,6 @@ div.AboutUsManifestoTxt{
     color:black;
     margin-top: 110px;
     margin-bottom: 100px;
-    
 }
 
 div.AboutUsManifesto p{
@@ -114,3 +101,15 @@ div.AboutUsManifesto p{
     line-height: 28px;
 }
 
+@media screen and (max-width: 723px) {
+    div.TxtOnImage{
+        padding-top: 120px; /* On remonte le texte situé sur l'image de fond*/
+    }
+}
+
+@media screen and (max-width: 500px) {
+    div.AboutUsIntro, div.AboutUsOrigine, div.AboutUsManifesto{
+        margin-left:15%;
+        margin-right: 15%; /* On élargit les blocs de texte sur les petits écrans*/
+    }
+}
