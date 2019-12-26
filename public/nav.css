@@ -18,7 +18,9 @@ div#Intro{
 }
 
 div#Intro img.logo{ /*Placement du logo en haut à gauche*/
-	position: fixed top left;
+	position: relative;
+	top:0;
+	left:0;
 	user-select: none;
 	height: 100px;
 	width: 270px;
@@ -71,7 +73,6 @@ nav .search-container {
 	float: right;
 	margin-top: 5px;
 	padding-right: 10px;
-	padding-left:250px;
 	border-radius: 1em;
 }
   
@@ -84,7 +85,7 @@ nav input[type=text] {
 }
  
   
-@media screen and (max-width: 1000px) {/*Responsivité de la navbar*/
+@media screen and (max-width: 1165px) {/*Responsivité de la navbar*/
 	nav .search-container {
 	  float: none;
 	  padding-right: 0;

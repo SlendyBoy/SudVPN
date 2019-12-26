@@ -42,7 +42,6 @@ div.TxtOnImage h3{
     max-width: 100%;
     height: 100%;
     display:block;
-    position:center;
 }
 
 div.TxtOnImage button.Tarifs{
@@ -127,7 +126,6 @@ button.Fonctionnalités:hover{
 
 
 div#AccèsImg{
-    align-items: right;
     margin-left: 100px;
     padding-left: 15px;
     padding-right: 15px;
@@ -168,7 +166,7 @@ div#ProtectionDesAppareilsTxt{
 div#ProtectionDesAppareilsTxt div#SupportedPlatforms{
     display: inline-block;
     vertical-align: bottom;
-    text-align: center left;
+    text-align: left;
     padding-bottom: 20px;
 }
 
@@ -195,7 +193,6 @@ button.Apps:hover{
 }
 
 div#ProtectionDesAppareilsImg{
-    align-items: left;
     padding-left: 15px;
     padding-right: 15px;
     width: 420px;
@@ -248,7 +245,6 @@ button.Serveurs:hover{
 }
 
 div#ConnexionImg{
-    align-items: right;
     margin-left: 100px;
     padding-left: 15px;
     padding-right: 15px;

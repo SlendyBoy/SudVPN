@@ -51,7 +51,6 @@ div.TxtOnImage h3{
     max-width: 100%;
     height: 100%;
     display:block;
-    position:center;
 
 }
 
@@ -207,7 +206,7 @@ div.Ligne1,div.Ligne2,div.Ligne3{
 }
 div.Ligne4{
     font-size:30px;
-    font-weight: 520;
+    font-weight: 600;
 }
 
 div.Ligne1Gauche, div.Ligne2Gauche, div.Ligne3Gauche, div.Ligne4Gauche{ /* Correspond aux libellés(TVA,Total...) */

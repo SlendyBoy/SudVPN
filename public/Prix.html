@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="footer.css">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Raleway:800|Nunito|Dosis">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
 
         <link rel="icon" type="image/png" href="LogoIcon-32x32.png" sizes="32x32" />
@@ -39,12 +39,11 @@
                             <li><a href="#">Aide</a></li>
                             <li><a href="#AppMobileTitre">A propos</a></li>
 
-                            <div class="search-container">
+                            <li class="search-container">
                               <form action="recherche.html">
                                 <input type="text" placeholder="Rechercher..." name="search">
-                                
                               </form>
-                            </div>
+                            </li>
                         </ul>
                     </nav>
 
@@ -55,7 +54,9 @@
                             <h2>Abonnement 3 ans + 3 mois gratuits</h2>
                             <p class="Reduction">21,00€/mois</p>
                             <h3>4.20€/mois</h3>
-                            <button class="Tarifs"><a href="#row-prix">&Eacuteconomisez 80% sur SudVPN</a></button>
+                            <form action="#row-prix">
+                                <button class="Tarifs">&Eacute;conomisez 80% sur SudVPN</button>
+                            </form>
                             <p class="Garantie30jours">Satisfait ou remboursé sous 30 jours</p>
 
                         </div>
@@ -70,11 +71,13 @@
                             <p class="Prix">4.20€</p>
                             <p>par mois</p>
                             <div id="FlexEco1">
-                                <span class="Economie">&Eacuteconomisez 80%</span>
+                                <span class="Economie">&Eacute;conomisez 80%</span>
                             </div>
                             <p>+ 3 mois gratuits</p>
-                            <button class="Commander1"><a href="Commande.html">Choisir l'abonnement 3 ans <i class="fa fa-shopping-cart"></i></a></button>
-                            <p>391.05€</p><p class="Facture">114.33 € facturés tous les 3 ans</p>
+                            <form action="Commande.html">
+                                <button class="Commander1">Choisir l'abonnement 3 ans <i class="fa fa-shopping-cart"></i></button>
+                            </form>
+                            <p class="Facture">391.05€</p><p>114.33 € facturés tous les 3 ans</p>
                         </div>
                         
                         <div class="ColPrix2">
@@ -82,10 +85,12 @@
                             <p class="Prix">10.50€</p>
                             <p>par mois</p>
                             <div id="FlexEco2">
-                                <span class="Economie">&Eacuteconomisez 50%</span>
-                                <button class="Commander2"><a href="Commande.html">Choisir l'abonnement 2 ans <i class="fa fa-shopping-cart"></i></a></button>
+                                <span class="Economie">&Eacute;conomisez 50%</span>
+                                <form action="Commande.html">
+                                    <button class="Commander2">Choisir l'abonnement 2 ans <i class="fa fa-shopping-cart"></i></button>
+                                </form>
                             </div>
-                            <p>391.05€</p><p class="Facture">114.33 € facturés tous les 3 ans</p>
+                            <p class="Facture">391.05€</p><p>114.33 € facturés tous les 3 ans</p>
                         </div>
                         
                         <div class="ColPrix3">
@@ -93,10 +98,12 @@
                             <p class="Prix">14.07€</p>
                             <p>par mois</p>
                             <div id="FlexEco3">
-                                <span class="Economie">&Eacuteconomisez 33%</span>
-                                <button class="Commander3"><a href="Commande.html">Choisir l'abonnement 1 an <i class="fa fa-shopping-cart"></i></a></button>
+                                <span class="Economie">&Eacute;conomisez 33%</span>
+                                <form action="Commande.html">
+                                    <button class="Commander3">Choisir l'abonnement 1 an <i class="fa fa-shopping-cart"></i></button>
+                                </form>
                             </div>
-                            <p>391.05€</p><p class="Facture">114.33 € facturés tous les 3 ans</p>
+                            <p class="Facture">391.05€</p><p>114.33 € facturés tous les 3 ans</p>
                         </div>
                         
                         <div class="ColPrix4">
@@ -104,10 +111,12 @@
                             <p class="Prix">21€</p>
                             <p>par mois</p>
                             <div id="FlexEco4">
-                                <span class="Economie">&Eacuteconomisez 0%</span>
-                                <button class="Commander4"><a href="Commande.html">Choisir l'abonnement 1 mois <i class="fa fa-shopping-cart"></i></a></button>
+                                <span class="Economie">&Eacute;conomisez 0%</span>
+                                <form action="Commande.html">
+                                    <button class="Commander4">Choisir l'abonnement 1 mois <i class="fa fa-shopping-cart"></i></button>
+                                </form>
                             </div>
-                            <p class="Facture">114.33 € facturés tous les 3 ans</p>
+                            <p>114.33 € facturés tous les 3 ans</p>
                         </div>
                     </div>
                 <!-- Fin des prix -->
@@ -196,7 +205,7 @@
 
 
                 <!-- début commentaire -->
-                <div id="Commentaire">
+                <div class="Commentaire">
                     <p>Jean-Michel PLUMEAU</p> 
                     <p> 
                         <span class="fa fa-star checked"></span>
@@ -205,14 +214,14 @@
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                     </p>
-                    <div id="Encadre">
+                    <div class="Encadre">
                         <p>Vraiment efficace et simple d'utilisation. À recommander pour se connecter en France a partir de l'étranger. Que ce soit sous Windows ou Android c'est toujours aussi efficace. Je l'utilise depuis 3 ans et toujours aussi satisfait. En plus le support répond dans les 24 heures.</p>                  
                         <p class="date">le 14/12/2019</p>
                     </div>  
 
                 </div>
 
-                <div id="Commentaire">
+                <div class="Commentaire">
                     <p>Grand Calife Jafar Ben Yahya Mahmat</p> 
                     <p> 
                         <span class="fa fa-star checked"></span>
@@ -221,14 +230,14 @@
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                     </p>
-                        <div id="Encadre">
+                        <div class="Encadre">
                             <p>Merci à SudVPN pour nous avoir fournis un VPN digne de ce nom! Je peux accéder à NetFlix en Syrie!</p>                  
                             <p class="date">le 29/08/2019</p>
                     </div>  
     
                 </div>
 
-                <div id="Commentaire">
+                <div class="Commentaire">
                     <p>Marc Assin</p> 
                     <p> 
                         <span class="fa fa-star checked"></span>
@@ -237,14 +246,14 @@
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                     </p>
-                        <div id="Encadre">
+                        <div class="Encadre">
                             <p>Excellent et pas de fausses informations, c'est bien conforme. Pas de perte de vitesse d'un serveur à un autre. Je le recommande à tout le monde!</p>                  
                             <p class="date">le 23/05/2019</p>
                          </div>  
         
                 </div>
 
-                <div id="Commentaire">
+                <div class="Commentaire">
                     <p>Patrick Balkany</p> 
                     <p> 
                         <span class="fa fa-star checked"></span>
@@ -253,7 +262,7 @@
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                     </p>
-                        <div id="Encadre">
+                        <div class="Encadre">
                             <p>Grâce à SudVPN, j'ai pu me connecter au Panama, en Suisse et même au Maroc! Pas de foutaises, l'application est très rentable. Le gouvernement français n'a pas pu me pister!</p>                  
                             <p class="date">le 02/03/2019</p>
                          </div>  
@@ -265,16 +274,12 @@
 
                 <!-- Commentaire Input -->
                     <div class="CommentaireInput">
-                        <textarea rows="4" cols="90" name="comment" form="Comform" placeholder="Entrez un commentaire"></textarea>
-                        <button class="SendCom">Envoyer</button>
+                        <form action="#" id="Comform">
+                            <textarea rows="4" cols="90" name="comment" form="Comform" placeholder="Entrez un commentaire"></textarea>
+                            <button class="SendCom">Envoyer</button>
+                        </form>
                     </div>
                 
-
-
-
-
-
-
 
 
                 <!-- Footer -->
@@ -284,11 +289,11 @@
                             <p>Disponible sur Google Play et l'App Store</p>
                         </div>
                         <div id="DispoPlateformes">
-                            <a href="https://play.google.com/store/search?q=SudVPN&hl=fr" target="_blank"><img src="GooglePlay.png" alt="GooglePlay" height="56px" width="169px"></a>
-                            <a href="https://www.apple.com/fr/search/VPN?page=1&sel=explore&src=serp" target="_blank"><img src="AppStore.png" alt="AppStore" height="56px" width="169px"></a>
+                            <a href="https://play.google.com/store/search?q=SudVPN&hl=fr" target="_blank"><img src="GooglePlay.png" alt="GooglePlay" height="56" width="169"></a>
+                            <a href="https://www.apple.com/fr/search/VPN?page=1&sel=explore&src=serp" target="_blank"><img src="AppStore.png" alt="AppStore" height="56" width="169"></a>
                         </div>
     
-                        <table cellspacing="15">
+                        <table>
     
                             <tr>
                                 <th>SudVPN et ses services</th>
@@ -341,15 +346,7 @@
                         <button class="Accepter">Accepter</button>
                     </div>-->
                       
-    
-    
-    
-    
-           
-    
         <!-- Tag fermant le contenu de la page -->
         </div>
-            
-            
     </body>
 </html>
