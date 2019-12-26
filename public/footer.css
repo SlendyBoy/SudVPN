@@ -58,6 +58,7 @@ table{
     padding-right:10px;
     text-align: center;
     height: 200px;
+    border-spacing: 7px 1rem;
 }
 
  @media screen and (max-width: 320px) { /* Pour que la table soit entièremetn visible */
