@@ -16,23 +16,18 @@ div#LesResultats {
     margin-bottom:150px;
 }
 
-
-
 .recherche {
     width: 700px;
-    height:500px;
+    height:650px;
     padding-top:50px;
     border-top: 1px solid black;
     margin-top: 50px;
     display:flex; /* Chaque div "recherche" est flex, en row et en mode wrap, permettant la description d'être en dessous*/
-    
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-   
     position: relative;
     max-width: 100%;
-    
 }
 
 .imageproduit {
@@ -43,9 +38,7 @@ div#LesResultats {
     margin-right:15px;
     padding-left: 15px;
     padding-right: 15px;
-    border: 1px solid black;
-    border-radius: 1em;
-    height: 250px;
+    height: 400px;
     width: 1000px;
     max-width: 100%;   
     overflow: hidden;
@@ -60,24 +53,23 @@ div.rechercheDescription {
 }
 
 div#image3ans {
-    background-image: url(troisans.JPG);
-}
-
-
-div#perenoel {
-    background-image: url(perenoel.jpg);
+    background-image: url(Abo3ans.PNG);
 }
 
 div#image2ans {
-    background-image: url(2ans.JPG);
+    background-image: url(Abo2ans.PNG);
 }
 
-div#image1ans {
-    background-image: url(1ans.JPG);
+div#image1an {
+    background-image: url(Abo1an.PNG);
 }
 
 div#image1mois {
-    background-image: url(1mois.JPG);
+    background-image: url(Abo1mois.PNG);
+}
+
+div#perenoel {
+    background-image: url(perenoel.jpg);
 }
 
 div#mot_de_passe {
@@ -103,7 +95,6 @@ div#logosudvpn {
         margin-left: 10%;
         margin-right: 10%;
     }
-
     div.recherche{ /* Augmente la hauteur de la div de chaque recherche */
         height:700px;
     }

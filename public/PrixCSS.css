@@ -196,8 +196,6 @@ button.Commander1:hover, button.Commander2:hover, button.Commander3:hover, butto
 
 
 div.ArgumentsDeVenteEnsemble{
-    margin-left: auto;
-    margin-right: auto;
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 150px;
@@ -340,7 +338,8 @@ button.SendCom:hover{
     flex-direction: column;/* 1 colonne des prix*/
   }
 
-  div#Commentaire, div.CommentaireInput { /*Elargissment des coms*/
+    /*Elargissment des arguments de vente et des coms*/
+  div#Commentaire, div.CommentaireInput, div.ArgumentsDeVenteEnsemble{ 
     margin-left: 15%;
     margin-right: 15%;
   }
