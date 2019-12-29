@@ -210,6 +210,7 @@ div.ArgumentsDeVenteTxt{
 div.ArgumentsDeVenteTxt h1{
     margin-bottom:80px;
     font-weight: 500;
+    line-height: 40px;
 }
 div.ArgumentsDeVenteTxt h1+p{
     font-weight: 400;

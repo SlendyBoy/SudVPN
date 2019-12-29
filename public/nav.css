@@ -6,6 +6,7 @@ body{
 	background-color:white;
 	margin: 0;
 	height: 100%;
+	overflow-x: hidden;
 	font-family: 'Raleway'; /* Police bien sympa */
 }
 
