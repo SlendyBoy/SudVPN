@@ -1,9 +1,9 @@
 # SudVPN  
-Ce site web statique est un projet réalisé pour le module de web du semestre 1 d'IUT Informatique. A passé le validateur W3C.
+Ce site web statique responsive est un projet réalisé pour le module de web du semestre 1 d'IUT Informatique. A passé le validateur W3C.
 
 ## Contraintes
 
-Site web statique, pas de framework, pas de JS, only HTML/CSS. Doit passer la validateur W3C.
+Site web statique et responsive, pas de framework, pas de JS, only HTML/CSS. Doit passer la validateur W3C.
 
 ## Les pages demandées
 
