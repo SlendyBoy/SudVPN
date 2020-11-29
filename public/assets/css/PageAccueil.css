@@ -134,7 +134,7 @@ div#AccèsImg{
     height: 320px;
     overflow: hidden;
     user-select: none;
-    background-image: url(./vpn-access-sud.png); 
+    background-image: url(../images/vpn-access-sud.png); 
     background-size: contain;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -200,7 +200,7 @@ div#ProtectionDesAppareilsImg{
     height: 320px;
     overflow: hidden;
     user-select: none;
-    background-image: url(./devicesVPN.png); 
+    background-image: url(../images/devicesVPN.png); 
     background-size: contain;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -254,7 +254,7 @@ div#ConnexionImg{
     height: 320px;
     overflow: hidden;
     user-select: none;
-    background-image: url(./SecureConnection.jpg); 
+    background-image: url(../images/SecureConnection.jpg); 
     background-size: cover;
     border-radius: 1em;
     box-shadow: 5px 5px 8px;

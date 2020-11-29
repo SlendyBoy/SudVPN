@@ -61,55 +61,9 @@ table{
     border-spacing: 7px 1rem;
 }
 
- @media screen and (max-width: 320px) { /* Pour que la table soit entièremetn visible */
+ @media screen and (max-width: 320px) { /* Pour que la table soit entièrement visible */
     table{
         padding-left: 0;
         padding-right: 0;
     }
 }
-
-/*  Ne faites pas attention à ceci
-div.footerCookie{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.671);
-    color: white;
-    text-align: justify;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: center;
-}
-
-div.footerCookieTxt{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 2px;
-
-}
-
-div.footerCookieTxt a{
-    text-decoration: underline;
-    color: white;
-}
-
-div.footerCookie button.Accepter{
-    background-color: black;
-    border: 1px solid white;
-    cursor: pointer;
-    border-radius: 1em;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    padding: 10px 15px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-}
-
-button.Accepter:hover{
-    background-color: #4687ff;
-}
-*/
-

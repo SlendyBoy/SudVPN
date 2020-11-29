@@ -28,6 +28,7 @@ div#LesResultats {
     flex-wrap: wrap;
     position: relative;
     max-width: 100%;
+    justify-content: center;
 }
 
 .imageproduit {
@@ -53,27 +54,27 @@ div.rechercheDescription {
 }
 
 div#image3ans {
-    background-image: url(Abo3ans.PNG);
+    background-image: url(../images/Abo3ans.PNG);
 }
 
 div#image2ans {
-    background-image: url(Abo2ans.PNG);
+    background-image: url(../images/Abo2ans.PNG);
 }
 
 div#image1an {
-    background-image: url(Abo1an.PNG);
+    background-image: url(../images/Abo1an.PNG);
 }
 
 div#image1mois {
-    background-image: url(Abo1mois.PNG);
+    background-image: url(../images/Abo1mois.PNG);
 }
 
 div#perenoel {
-    background-image: url(perenoel.jpg);
+    background-image: url(../images/perenoel.jpg);
 }
 
 div#mot_de_passe {
-    background-image: url(mot_de_passe.png);
+    background-image: url(../images/mot_de_passe.png);
     
 }
 

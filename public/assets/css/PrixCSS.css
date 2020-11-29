@@ -3,7 +3,7 @@
 }
 
 .Noel {
-    background-image: url("arbreNoel.jpg");
+    background-image: url("../images/arbreNoel.jpg");
     min-height: 900px;
     position: relative;
     opacity: 1;

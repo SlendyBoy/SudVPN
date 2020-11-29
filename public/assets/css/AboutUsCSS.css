@@ -8,7 +8,7 @@ div.ImgIntro{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("AboutSudVPNStaff.jpg");
+    background-image: url("../images/AboutSudVPNStaff.jpg");
     min-height: 450px;
 }
 
