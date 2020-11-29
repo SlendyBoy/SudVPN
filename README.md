@@ -1,67 +1,39 @@
-![Build Status](https://gitlab.com/pages/plain-html/badges/master/build.svg)
+# SudVPN  
+Ce site web statique est un projet réalisé pour le module de web du semestre 1 d'IUT Informatique. A passé le validateur W3C.
 
----
+## Contraintes
 
-Example plain HTML site using GitLab Pages.
+Site web statique, pas de framework, pas de JS, only HTML/CSS. Doit passer la validateur W3C.
 
-Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation https://docs.gitlab.com/ce/user/project/pages/.
+## Les pages demandées
 
----
+* Page d'accueil (fichier "index.html"): https://slendyboy.github.io/SudVPN/  
+Message de bienvenu, promotions et champs de recherche  
+Retour à la page d'accueil via "Home" dans la navbar et "Téléchargez SudVPN" (footer)
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+* Page de recherche (fichier "recherche.html"): accès via le champs de recherche seulement
 
-- [GitLab CI](#gitlab-ci)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Troubleshooting](#troubleshooting)
+* Page Tarifs (fichier "Prix.html" - accès via "Tarifs" dans navbar et "Les Prix" dans le footer)  
+ Page détaillée des articles (présentation des différents prix), incluant une description (type abonnement et arguments de vente situés sous les prix), la possibilité de laisser un commentaire (en bas de la page) et d’ajouter l’article à son panier (via le bouton "Choisir l'abonnement...")
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+* Page Commande (fichier "Commande.html" - accès via le bouton "Choisir l'abonnement..." page des prix seulement)
+Page de validation de commande permettant de saisir les coordonnées de livraison (Résumé commande - ticket de caisse)
 
-## GitLab CI
+* Page "Qui sommes nous?" (fichier "AboutUs.html" - accès via le footer 2ème colonne "Informations")
 
-This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
 
-```
-image: alpine:latest
+## Informations générales concernant le site
 
-pages:
-  stage: deploy
-  script:
-  - echo 'Nothing to do...'
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
-```
+Navbar:  
+* Home: Page d'accueil
+* Tarifs: Prix des abonnements
+* A propos: Renvoie au footer
 
-The above example expects to put all your HTML files in the `public/` directory.
-
-## GitLab User or Group Pages
-
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
-
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
-
-## Did you fork this project?
-
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
-
-## Troubleshooting
-
-1. CSS is missing! That means that you have wrongly set up the CSS URL in your
-   HTML files. Have a look at the [index.html] for an example.
-
-[ci]: https://about.gitlab.com/gitlab-ci/
-[index.html]: https://gitlab.com/pages/plain-html/blob/master/public/index.html
-[userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
-[projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
+Footer: Grosse div noire en bas de la page (Téléchargez les apps mobiles SudVPN)  
+* 1ère colonne "SudVPN et ses services":
+  * "Téléchargez SudVPN: Renvoie à la page d'accueil
+  * "Les prix": Page des prix
+  * "Avis clientèle": Renvoie aux commentaires des users (page des prix)
+* 2ème colonne "Informations":
+  * "Qu'est-ce qu'un VPN?": Page bonus
+  * "Qui sommes nous?": Page à propos de SudVPN
